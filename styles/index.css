@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    font-family: "Playfair Display", serif;
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: #333333;
+    background-color: #f9f8fa;
+    line-height: 1.6;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+.header-container{
+    background-color: #0077cc;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.link:hover{
+    color:rgb(0, 14, 207);
+}
+.link:visited{
+    colour:rgb(136, 0, 95);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.subtitle{
+    margin: 20px 0px;
+}
+
+.list-ativ{
+    margin: 15px;
+}
+
+.citacoes{
+    background-color:rgb(195, 211, 228);
+    border-left: 5px solid #0077cc;
+    font-style:  italic;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+footer{
+    color:white;
+    text-align: center;
+    background-color:rgb(29, 29, 29);
+    padding: 20px;
+    margin-top: 40px;
+}
+ footer h3{
+    font-weigth: 600;
+    margin: 10px;
+ }
